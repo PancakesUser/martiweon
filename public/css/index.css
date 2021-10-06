@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'Whitney';
+    src: url('./fonts/whitneyblacksc.otf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: black;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+ 
+
+ header {
+    top: 0;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    background-color: #e84a61;
+    background-size: cover;
+    background-repeat: none;
+}  
+
+svg {
+    top: 500px;
+    width: 100%;
+    position: absolute;
+    background-position: bottom;
+}
+
+header ul {
+     color: white;
+     list-style: none;
+     display: flex;
+     justify-content: right;
+}
+
+header ul a {
+     font-family: 'Whitney';
+     font-size: 20px;
+     color: white;
+     text-decoration: none;
+     padding: 15px;
+}
+
+header .header-textos {
+    font-size: 30px;
+    margin-top: 250px;
+    margin-left: 300px;
+    width: 100%;
+}
+
+
+header .header-textos h1 {
+    font-family: 'Whitney';
+    color: white;
+}
+
+
+header .header-textos p {
+    font-family: 'Whitney';
+}
+
+
+
+
+header .kirbo {
+    position: absolute;
+    width: 250px;
+    margin-left: 70%;
+    margin-top: 15%;
+}
+
+
+.contenedor {
+    margin-top:1100px;
+    width: 100%;
+    height: 500px;
+}
+
+.contenedor .contenedor-about {
+    width: 400px;
+    height: 250px;
+    margin: auto;
+    border: solid 3px white;
+    border-width: 100%;
+}
+
+.contenedor .contenedor-about h1 {
+    font-family: 'Whitney';
+    font-size: 40px;
+    color: white;
+}
+
+.contenedor .contenedor-about p {
+    color: orange;
+    font-family: 'Whitney';
+    font-size: 25px;
+}
+
+
+.s-w {
+        border: solid 2px white;
+        margin-top: 450px;
+        width: 400px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.s-w h1 {
+    font-family: 'Whitney';
+    font-size: 40px;
+    color: white;
+}
+
+.s-w p {
+    font-family: 'Whitney';
+    font-size: 22px;
+    color: orange;
+}
+
+.s-w img {
+    margin-top: -3px;
+    width: 120px;
+}
+
+.s-a {
+        border: solid 2px white;
+        margin-top: 450px;
+        width: 400px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.s-a h1 {
+        font-family: 'Whitney';
+        font-size: 40px;
+        color: white;
+}
+
+.s-a p {
+    font-family: 'Whitney';
+    font-size: 20px;
+    color: orange;
+}
+
+.s-a img {
+    margin-top:  45px;
+}
